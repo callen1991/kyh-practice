@@ -1,8 +1,4 @@
-def add(a, b):
-
-
-    result = a + b
-    return result
+import calc
 
 
 def subtract(a, b):
@@ -40,7 +36,7 @@ def run():
 
 
     if answer == "1":
-        result = add(a, b)
+        result = calc.add(a, b)
     if answer == "2":
         result = subtract(a, b)
     if answer == "3":
