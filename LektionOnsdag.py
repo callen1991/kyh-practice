@@ -1,26 +1,6 @@
 import calc
 
 
-def subtract(a, b):
-
-
-    result = a - b
-    return result
-
-
-def multiply(a, b):
-
-
-    result = a * b
-    return result
-
-
-def divide(a, b):
-
-
-    result = a / b
-    return result
-
 
 def run():
 
@@ -38,11 +18,11 @@ def run():
     if answer == "1":
         result = calc.add(a, b)
     if answer == "2":
-        result = subtract(a, b)
+        result = calc.subtract(a, b)
     if answer == "3":
-        result = multiply(a, b)
+        result = calc.multiply(a, b)
     if answer == "4":
-        result = divide(a, b)
+        result = calc.divide(a, b)
 
     print("Result = " + str(result))
 if __name__ == '__main__':
