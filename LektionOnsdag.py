@@ -37,8 +37,7 @@ def run():
     answer = input(">> ")
     a = int(input("A="))
     b = int(input("B="))
-    a = int(input("A="))
-    b = int(input("B="))
+
 
     if answer == "1":
         result = add(a, b)
