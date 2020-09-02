@@ -16,7 +16,7 @@ def mainloop(antal_gissningar, n):
         as_number = int(text)
         antal_gissningar = antal_gissningar + 1
         if as_number == n:
-            print("Korrekt! " + str(antal_gissningar) + " gissningar använda")
+            print(f"Korrekt! {antal_gissningar}  gissningar använda")
             break
 
         if as_number < n:
@@ -27,6 +27,6 @@ def mainloop(antal_gissningar, n):
             print("Fel, mitt nummer är lägre... Försök igen!")
             print("du har gjort " + str(max_guesses) + " gissningar använda")
 
-ask_number()
+
 mainloop(antal_gissningar, n)
 
